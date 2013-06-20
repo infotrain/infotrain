@@ -10,6 +10,7 @@ public class TestService extends DatabaseService {
 	@Path("/TestConnection")
 	@Produces("application/json")
 	public String testConnection() throws Exception {
+		// here's some borkaborka change
 		return String.valueOf($Db().isClosed());
 	}
 
