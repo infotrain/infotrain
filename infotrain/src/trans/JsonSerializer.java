@@ -33,6 +33,7 @@ public class JsonSerializer{
 	public static String GetJson(Object o){
 		Gson gson = new Gson();
 		return gson.toJson(o);
+		//test test test
 	}
 
 	private static JsonElement _serialize(ResultSet rs, String tag) {
