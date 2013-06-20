@@ -34,6 +34,7 @@ public class JsonSerializer{
 		Gson gson = new Gson();
 		return gson.toJson(o);
 		//test test test
+		//kaka kaka kaka
 	}
 
 	private static JsonElement _serialize(ResultSet rs, String tag) {
